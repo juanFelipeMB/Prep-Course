@@ -1,0 +1,29 @@
+Variables: La variable es una forma de guardar información para poder usarla mas adelante, cuando sea necesario. Estas pueden ser configuradas con un valor y luego pueden ser restablecidad con otro valor. Ejemplo: 
+var nombrePersona = "Juan Felipe Martinez Bernal";
+var edad = "24 Años";
+
+String: El string es una cadena de texto, siempre va escrita entre comillas (""), puede ser cualquier texto que vaya dentro de comillas ya es contado como tipo string. Emeplo:
+
+var nombrePerro = "Rufo";
+var cualquierTexto = "Jesúcrito es el Rey del universo";
+
+Funciones: Las funciones son objetos que realizan acciones mediante una información previa, estas funciones pueden llevar cualquier nombre siempre y cuando lleve lleve su palabra clave "function", pueden ser muy utiles para usarse en medio de cualquier trabajo en equipo. ejemplo:
+
+function imprimirNombre(nombre){
+    return nombre;
+}
+
+Declaraciones: La declaración es una afirmación que se realiza en el código, con el fin de ejecutar ya sea una linea de código u otra, para las etiquetas mas usadas es el condicional IF y ELSE ejemplo:
+if(edad == '24 Años'){
+    return "Tiene la edad correcta";
+}else{
+    return "Le falta edad";
+}
+
+Valores booleanos: Los valores booleanos son solos 2, puede ser verdadero o falso, cuando usamos estos valores no tendremos perdida en saber cual es la respuesta ya que o es una o es la otra, pueden ser muy utiles a la hora de usarse. ejemplo:
+
+if(nombre == 'Juan Felipe Martinez Bernal'){
+    return true;
+}else{
+    return false;
+}
